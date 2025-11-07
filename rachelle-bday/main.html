@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>For Rachelle — Pixel Collage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Handlee&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="fade-in">
+    <div class="fade-wrapper">
+        <!-- Fireworks Canvas -->
+        <canvas id="fireworksCanvas"></canvas>
+        <!-- Loading Screen -->
+        <div class="loading-screen" id="loadingScreen">
+            <div class="loading-box">
+                <img src="img/cat.gif" alt="Loading..." class="loading-gif">
+                <div class="pixel-bar">
+                    <div class="pixel-fill"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content -->
+        <main class="screen active">
+            <div class="container">
+                <h1 class="pixel-title">My Favorite Pixel✦</h1>
+                <div class="collage">
+                    <img src="img/IMG_2342.jpeg" class="pic tilt-left" alt="Photo 1">
+                    <img src="img/IMG_2357.jpeg" class="pic tilt-right" alt="Photo 2">
+                    <img src="img/IMG_2300.jpeg" class="pic tilt-left" alt="Photo 3">
+                    <img src="img/IMG_2298.jpeg" class="pic tilt-left" alt="Photo 4">
+                </div>
+                <div class="letter-card">
+                    <span class="corner tl"></span>
+                    <span class="corner tr"></span>
+                    <span class="corner bl"></span>
+                    <span class="corner br"></span>
+                    <h2 class="hand">Happy Birthday Rachelle 💌</h2>
+                    <p>
+                        Hello Rachelle sana magbait ka na, panis ka nagawa ko to ng 2 araw lang anyway i hope na happy ka palagi and
+                        you’re someone na who turns my ordinary days into moments worth keeping. Every memory with you feels
+                        like a tiny pixel — bright, soft, and part of something beautiful. Enjoy your day!
+                    </p>
+                </div>
+                <button id="backBtn" class="pixel-btn ghost">BACK</button>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
